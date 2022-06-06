@@ -1,3 +1,4 @@
+
 {
     "BrandCentral": {
         "Cars": {
@@ -48,7 +49,7 @@
                             "PP": 487.45,
                             "MaxTorque": "22,0kgfm / 5,500rpm"
                         },
-                        "Detailed_performance": {
+                        "Tuning": {
 
                         },
                         "Short_desc": "The final version of the RX-8, Mazda's rotary engine sports car with a unique 4-door layout.",
@@ -63,5 +64,12 @@
     },
     "LegendaryDealer": {
 
+    },
+    "Races": {
+
     }
 }
+
+// detailed tuning stats, possible tuning parts you can buy, body kits, spoilers, widebody yes/no,
+// maxperformance achieved
+// race info: credits, pp limit, rewards
