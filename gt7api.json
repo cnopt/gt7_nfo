@@ -1,0 +1,34 @@
+{
+    "BrandCentral": {
+        "Cars": {
+            "Manufacturers": {
+                "Alpine": [
+                    {
+                        "Model": "AAX 115i",
+                        "Displacement": "1998cc",
+                        "Year": 2013,
+                        "img": "path/to/img.jpg"
+                    },
+                    {
+                        "Model": "DSM iType",
+                        "Displacement": "1249cc",
+                        "Year": 2000
+                    }
+                ],
+                "BMW": [
+                    {
+                        "Model": "120d E87",
+                        "Displacement": "2000cc",
+                        "Year": 2006
+                    }
+                ]
+            }
+        }
+    },
+    "UsedCarDealership": {
+
+    },
+    "LegendaryDealer": {
+
+    }
+}
