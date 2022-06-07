@@ -1,0 +1,32 @@
+html {
+    /* box-shadow: 0 3px 30px 0 rgb(0 0 0 / 75%);
+    border: 1px solid hsla(0,0%,100%,.08); */
+    /* background-color: #292b32; */
+    background-color: #000;
+    background-image: linear-gradient(180deg,#000,#222 50%,#000);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+button {
+    position: relative;
+    font-size: .75rem;
+    font-weight: 700;
+    color: #dedede;
+    min-width: 180px;
+    padding: 13px 20px;
+    margin: 0 10px;
+    border-radius: 21px;
+    border: 1px solid hsla(0,0%,100%,.3);
+    background-image: linear-gradient(180deg,rgba(43,43,43,.8),rgba(0,0,0,.8));
+    cursor: pointer;
+}
+
+#content-area {
+    color:#eee;
+    font-family: monospace;
+}
+
+pre {
+    font-size: 0.8em;
+}
