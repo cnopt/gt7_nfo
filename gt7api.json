@@ -3,9 +3,208 @@
     "BrandCentral": {
         "Cars": {
             "Manufacturers": {
+                "Alfa Romeo": [
+                    {
+                        "Model": "155 2.5 V6 TI '93",
+                        "Manufacturer": "Alfa Romeo",
+                        "Year": 1993,
+                        "Cost": 800000,
+                        "Type": "Race Car",
+                        "Country": "Italy",
+                        "Colours": [
+                            "Red"
+                        ],
+                        "Measurements": {
+                            "Length": 4572,
+                            "Width": 1727,
+                            "Height": 1371.6,
+                            "Weight": 1010
+                        },
+                        "Base_performance": {
+                            "Displacment": "2498cc",
+                            "Drivetrain": "4WD",
+                            "Aspiration": "NA",
+                            "MaxPower": "420bhp",
+                            "PP": 524,
+                            "MaxTorque": "216.9ft-lb"
+                        },
+                        "Tuning": {
+                            "Engine": "Alfa Romeo/PRV 2.5 V6",
+                            "Acceleration": {
+                                "QuarterMile": 14.15,
+                                "HalfMile": 25.14
+                            }
+                        },
+                        "GTAuto": {
+                            "Widebody": true,
+                            "Custom_parts": {
+                                "Front": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Rear": [
+                                    "Standard Parts",
+                                    "Type A"
+                                ],
+                                "Wing": [
+                                    "Standard Parts",
+                                    "Wingless",
+                                    "Custom Wing Set"
+                                ]
+                            },
+                            "Racing_items": {
+                                "Bonnet_pin": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Tow_hook": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Roll_cage": [
+                                    "Standard Parts",
+                                    "Roll Cage Type A",
+                                    "Roll Cage Type B",
+                                    "Roll Cage Type C"
+                                ]
+                            },
+                            "Other": {
+                                "Lightbulb": [
+                                    "Standard Parts",
+                                    "Yellow",
+                                    "Warm 3200k",
+                                    "Daylight 5000k",
+                                    "Cool 6000k",
+                                    "Super Cool 9500k"
+                                ],
+                                "Number_plate": [
+                                    "Type A",
+                                    "Type A (Rear Only)",
+                                    "Type B",
+                                    "Type B (Rear Only)"
+                                ],
+                                "Caliper_colour": [
+                                    "Yellow",
+                                    "Gold",
+                                    "Red",
+                                    "White",
+                                    "Blue",
+                                    "Orange",
+                                    "Black",
+                                    "Green"
+                                ]
+                            }
+                        },
+                        "img": "../img/alfaromeo155.jpg",
+                        "Short_desc": "The champion machine that won 12 out of 20 races in high-performance DTM racing.",
+                        "Full_desc": "The DTM (Deutche Tourenwagen Meisterschaft) series allowed significant vehicle upgrades from 1993 to 1996, leading to DTM cars with a wide variety of electronic control devices like ABS, and traction control. The cars were laden with such high levels of technology that they were often referred to as 'F1 in a box.' The Alfa Romeo 155 entered the DTM in 1993 and experienced success right off the bat, trouncing the formidable AMG Mercedes-Benz 190E to win its maiden race. It won 12 of 20 races that year, taking home both the Drivers' and Manufactures' Championships. This car, known as the 155 V6 TI, was built based on the 155 sedan that appeared in 1992. The 2.5-liter 60-degree V6 generated 414 BHP sent to all four wheels. In 1995, the 155 adopted a 6-speed sequential paddle-shift semi-automatic, similar to those used by Formula 1 cars. But it wasn't enough to beat the up-and-coming Mercedes-Benz teams that year. In 1996, Alfa entered with a 90-degree V-type engine that put out 483 BHP. As a result, the 155 took ten wins in 26 races at 13 events, besting both Mercedes-Benz (seven wins) and Opel (nine wins). However, the 155 lagged behind in points and left without retaking the title. At the end of the season, the DTM series integrated with the ITC, and the DTM was gone, for a while."
+                    },
+                    {
+                        "Model": "4C Gr.3",
+                        "Manufacturer": "Alfa Romeo",
+                        "Year": 2014,
+                        "Cost": 450000,
+                        "Type": "Race Car",
+                        "Country": "Italy",
+                        "Colours": [
+                            "Red"
+                        ],
+                        "Measurements": {
+                            "Length": 4340,
+                            "Width": 1950,
+                            "Height": 1182,
+                            "Weight": 1220
+                        },
+                        "Base_performance": {
+                            "Displacment": "2498cc",
+                            "Drivetrain": "4WD",
+                            "Aspiration": "NA",
+                            "MaxPower": "420bhp",
+                            "PP": 524,
+                            "MaxTorque": "216.9ft-lb"
+                        },
+                        "Tuning": {
+                            "Engine": "Alfa Romeo/PRV 2.5 V6",
+                            "Acceleration": {
+                                "QuarterMile": 14.15,
+                                "HalfMile": 25.14
+                            }
+                        },
+                        "GTAuto": {
+                            "Widebody": true,
+                            "Custom_parts": {
+                                "Front": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Rear": [
+                                    "Standard Parts",
+                                    "Type A"
+                                ],
+                                "Wing": [
+                                    "Standard Parts",
+                                    "Wingless",
+                                    "Custom Wing Set"
+                                ]
+                            },
+                            "Racing_items": {
+                                "Bonnet_pin": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Tow_hook": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Roll_cage": [
+                                    "Standard Parts",
+                                    "Roll Cage Type A",
+                                    "Roll Cage Type B",
+                                    "Roll Cage Type C"
+                                ]
+                            },
+                            "Other": {
+                                "Lightbulb": [
+                                    "Standard Parts",
+                                    "Yellow",
+                                    "Warm 3200k",
+                                    "Daylight 5000k",
+                                    "Cool 6000k",
+                                    "Super Cool 9500k"
+                                ],
+                                "Number_plate": [
+                                    "Type A",
+                                    "Type A (Rear Only)",
+                                    "Type B",
+                                    "Type B (Rear Only)"
+                                ],
+                                "Caliper_colour": [
+                                    "Yellow",
+                                    "Gold",
+                                    "Red",
+                                    "White",
+                                    "Blue",
+                                    "Orange",
+                                    "Black",
+                                    "Green"
+                                ]
+                            }
+                        },
+                        "img": "../img/alfaromeo155.jpg",
+                        "Short_desc": "The champion machine that won 12 out of 20 races in high-performance DTM racing.",
+                        "Full_desc": "The DTM (Deutche Tourenwagen Meisterschaft) series allowed significant vehicle upgrades from 1993 to 1996, leading to DTM cars with a wide variety of electronic control devices like ABS, and traction control. The cars were laden with such high levels of technology that they were often referred to as 'F1 in a box.' The Alfa Romeo 155 entered the DTM in 1993 and experienced success right off the bat, trouncing the formidable AMG Mercedes-Benz 190E to win its maiden race. It won 12 of 20 races that year, taking home both the Drivers' and Manufactures' Championships. This car, known as the 155 V6 TI, was built based on the 155 sedan that appeared in 1992. The 2.5-liter 60-degree V6 generated 414 BHP sent to all four wheels. In 1995, the 155 adopted a 6-speed sequential paddle-shift semi-automatic, similar to those used by Formula 1 cars. But it wasn't enough to beat the up-and-coming Mercedes-Benz teams that year. In 1996, Alfa entered with a 90-degree V-type engine that put out 483 BHP. As a result, the 155 took ten wins in 26 races at 13 events, besting both Mercedes-Benz (seven wins) and Opel (nine wins). However, the 155 lagged behind in points and left without retaking the title. At the end of the season, the DTM series integrated with the ITC, and the DTM was gone, for a while."
+                    }
+                ],
                 "Mazda": [
                     {
                         "Model": "RX-8 Spirit R '12",
+                        "Manufacturer": "Mazda",
                         "Year": 2012,
                         "Cost": 32500,
                         "Type": "Road Car",
@@ -99,12 +298,115 @@
                                 ]
                             }
                         },
-                        "img": "../img/Spirit-R-12.jpg",
+                        "img": "../img/rx8.jpg",
                         "Short_desc": "The final version of the RX-8, Mazda's rotary engine sports car with a unique 4-door layout.",
                         "Full_desc": "Introduced in 2011, the Mazda RX-8 Spirit R was the final special edition model of the RX-8 that was first released in 2003. The RX-8 had two distinct personalities, depending on the gearbox you chose. Cars equipped with the 6-speed manual drove like a pure sport car, with brisk acceleration and more driver control, while those with the 6-speed automatic essentially behaved like luxury grand tourers. The Spirit R equipped with the 6-speed manual was based on the sporty Type RS, and featured extra aero parts and a sporty suspension setup, complete with Bilstein dampers. The automatic Spirit R was based on the Type E and included luxury accoutrements, such as leather seats. The car's Renesis rotary engine produced 235HP and 159 ft.-lb. of torque. The lifespan of the Spirit R was short-lived, as Mazda discontinued the RX-8 in June 2012. Because of that, initial orders for the Spirit R exceeded the intended batch of 1000 units, so Mazda produced another 1000 to meet demand."
                     },
                     {
-                        "Model": "TVR Tuscan '01'",
+                        "Model": "Atenza Gr. 4",
+                        "Manufacturer": "Mazda",
+                        "Year": 2012,
+                        "Cost": 32500,
+                        "Type": "Racing Car",
+                        "Country": "Japan",
+                        "Colours": [
+                            "Aluminum Metallic",
+                            "Sparkling Black Mica",
+                            "Crystal White Pearl Mica"
+                        ],
+                        "Measurements": {
+                            "Length": 4470,
+                            "Width": 1770,
+                            "Height": 1340,
+                            "Weight": 1350
+                        },
+                        "Base_performance": {
+                            "Displacment": "654x2cc",
+                            "Drivetrain": "FR",
+                            "Aspiration": "NA",
+                            "MaxPower": "230bhp / 8,000rpm",
+                            "PP": 487.45,
+                            "MaxTorque": "22,0kgfm / 5,500rpm"
+                        },
+                        "Tuning": {
+                            "Engine": "13B-MSP-RX-8",
+                            "Acceleration": {
+                                "QuarterMile": 14.15,
+                                "HalfMile": 25.14
+                            }
+                        },
+                        "GTAuto": {
+                            "Widebody": true,
+                            "Custom_parts": {
+                                "Front": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Rear": [
+                                    "Standard Parts",
+                                    "Type A"
+                                ],
+                                "Wing": [
+                                    "Standard Parts",
+                                    "Wingless",
+                                    "Custom Wing Set"
+                                ]
+                            },
+                            "Racing_items": {
+                                "Bonnet_pin": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Tow_hook": [
+                                    "Standard Parts",
+                                    "Type A",
+                                    "Type B"
+                                ],
+                                "Roll_cage": [
+                                    "Standard Parts",
+                                    "Roll Cage Type A",
+                                    "Roll Cage Type B",
+                                    "Roll Cage Type C"
+                                ]
+                            },
+                            "Other": {
+                                "Lightbulb": [
+                                    "Standard Parts",
+                                    "Yellow",
+                                    "Warm 3200k",
+                                    "Daylight 5000k",
+                                    "Cool 6000k",
+                                    "Super Cool 9500k"
+                                ],
+                                "Number_plate": [
+                                    "Type A",
+                                    "Type A (Rear Only)",
+                                    "Type B",
+                                    "Type B (Rear Only)"
+                                ],
+                                "Caliper_colour": [
+                                    "Yellow",
+                                    "Gold",
+                                    "Red",
+                                    "White",
+                                    "Blue",
+                                    "Orange",
+                                    "Black",
+                                    "Green"
+                                ]
+                            }
+                        },
+                        "img": "../img/atenzagr4.jpg",
+                        "Short_desc": "The final version of the RX-8, Mazda's rotary engine sports car with a unique 4-door layout.",
+                        "Full_desc": "Introduced in 2011, the Mazda RX-8 Spirit R was the final special edition model of the RX-8 that was first released in 2003. The RX-8 had two distinct personalities, depending on the gearbox you chose. Cars equipped with the 6-speed manual drove like a pure sport car, with brisk acceleration and more driver control, while those with the 6-speed automatic essentially behaved like luxury grand tourers. The Spirit R equipped with the 6-speed manual was based on the sporty Type RS, and featured extra aero parts and a sporty suspension setup, complete with Bilstein dampers. The automatic Spirit R was based on the Type E and included luxury accoutrements, such as leather seats. The car's Renesis rotary engine produced 235HP and 159 ft.-lb. of torque. The lifespan of the Spirit R was short-lived, as Mazda discontinued the RX-8 in June 2012. Because of that, initial orders for the Spirit R exceeded the intended batch of 1000 units, so Mazda produced another 1000 to meet demand."
+                    }
+                ],
+                "TVR": [
+                    {
+                        "Model": "Tuscan",
+                        "Manufacturer": "TVR",
                         "Year": 2012,
                         "Cost": 32500,
                         "Type": "Road Car",
@@ -198,6 +500,7 @@
                                 ]
                             }
                         },
+                        "img": "../img/tuscan.jpg",
                         "Short_desc": "The final version of the RX-8, Mazda's rotary engine sports car with a unique 4-door layout.",
                         "Full_desc": "Introduced in 2011, the Mazda RX-8 Spirit R was the final special edition model of the RX-8 that was first released in 2003. The RX-8 had two distinct personalities, depending on the gearbox you chose. Cars equipped with the 6-speed manual drove like a pure sport car, with brisk acceleration and more driver control, while those with the 6-speed automatic essentially behaved like luxury grand tourers. The Spirit R equipped with the 6-speed manual was based on the sporty Type RS, and featured extra aero parts and a sporty suspension setup, complete with Bilstein dampers. The automatic Spirit R was based on the Type E and included luxury accoutrements, such as leather seats. The car's Renesis rotary engine produced 235HP and 159 ft.-lb. of torque. The lifespan of the Spirit R was short-lived, as Mazda discontinued the RX-8 in June 2012. Because of that, initial orders for the Spirit R exceeded the intended batch of 1000 units, so Mazda produced another 1000 to meet demand."
                     }

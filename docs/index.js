@@ -7,32 +7,53 @@ function log(string) {
 const contentArea = document.getElementById('content-area');
 const jsonPrintArea = document.getElementById('jsonPrint');
 
-for (let i = 0; i < data.BrandCentral.Cars.Manufacturers.Mazda.length; i++) {
-    log(data.BrandCentral.Cars.Manufacturers.Mazda[i])
-    
-    const carBox = Object.assign(
-        document.createElement('div'), {
-            id: 'car' + i,
-            textContent: data.BrandCentral.Cars.Manufacturers.Mazda[i].Model
-        })
+log(Object.keys(data.BrandCentral.Cars.Manufacturers).length + ' manufacturers found')
 
-            carBox.insertAdjacentElement(
-                'beforeend', Object.assign(document.createElement('p'), {
-                    className: 'bhp',
-                    textContent: data.BrandCentral.Cars.Manufacturers.Mazda[i].Base_performance.MaxPower
-            }));
-            carBox.insertAdjacentElement( 'beforeend',
-                Object.assign(document.createElement('p'), {
-                    className: 'pp',
-                    textContent: data.BrandCentral.Cars.Manufacturers.Mazda[i].Base_performance.PP
-            }));
+for (let i=0;i<Object.keys(data.BrandCentral.Cars.Manufacturers).length;i++) {
+    //log(Object.values(data.BrandCentral.Cars.Manufacturers)[i][0].Model);
+    // now looped thru the manufacturers,
+    // now loop thru the cars themselves
+    for (let x=0;x<Object.values(data.BrandCentral.Cars.Manufacturers)[i].length;x++) {
+        log(Object.values(data.BrandCentral.Cars.Manufacturers)[i][x].Model);
 
-
-
-    const documentFragment = document.createDocumentFragment();
-    documentFragment.appendChild(carBox);
-    contentArea.appendChild(documentFragment);
-    
-    // jsonPrintArea.textContent = JSON.stringify(data.BrandCentral.Cars.Manufacturers.Mazda[0], undefined, 2)
+        const carBox = Object.assign(
+                    document.createElement('div'), {
+                        id: 'carBox' + i,
+                        className: Object.values(data.BrandCentral.Cars.Manufacturers)[i][x].Manufacturer + ' ' +
+                                   Object.values(data.BrandCentral.Cars.Manufacturers)[i][x].Type,
+                    })
+                        carBox.insertAdjacentElement(
+                            'beforeend', Object.assign(document.createElement('img'), {
+                                className: 'car-img',
+                                width: '200',
+                                src: Object.values(data.BrandCentral.Cars.Manufacturers)[i][x].img
+                        }));
+                        carBox.insertAdjacentElement(
+                            'beforeend', Object.assign(document.createElement('p'), {
+                                className: 'model',
+                                textContent: Object.keys(data.BrandCentral.Cars.Manufacturers)[i]
+                        }));
+                        carBox.insertAdjacentElement(
+                            'beforeend', Object.assign(document.createElement('p'), {
+                                className: 'model',
+                                textContent: Object.values(data.BrandCentral.Cars.Manufacturers)[i][x].Model
+                        }));
+                        carBox.insertAdjacentElement(
+                            'beforeend', Object.assign(document.createElement('p'), {
+                                className: 'bhp',
+                                textContent: Object.values(data.BrandCentral.Cars.Manufacturers)[i][x].Base_performance.MaxPower
+                        }));
+                        carBox.insertAdjacentElement( 'beforeend',
+                            Object.assign(document.createElement('p'), {
+                                className: 'pp',
+                                textContent: Object.values(data.BrandCentral.Cars.Manufacturers)[i][x].Base_performance.PP
+                        }));
+            
+            
+            
+                const documentFragment = document.createDocumentFragment();
+                documentFragment.appendChild(carBox);
+                contentArea.appendChild(documentFragment);
+    }
 }
 
