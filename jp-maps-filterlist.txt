@@ -1,0 +1,26 @@
+! 2022-06-20 https://www.google.co.jp
+www.google.co.jp##span:nth-of-type(7)
+www.google.co.jp##button.ZqLNQd.Hk4XGb.tUdUte.ZiKfbc:nth-of-type(3)
+www.google.co.jp##span:nth-of-type(8)
+www.google.co.jp##.H4v9Kb
+||maps.gstatic.com/tactile/compass/icon-sprite-1x.png$image
+||maps.gstatic.com/tactile/compass/icon-sprite-1x.png$image
+||maps.gstatic.com/tactile/compass/icon-sprite-1x.png$image
+www.google.co.jp###titlecard
+||maps.gstatic.com/mapfiles/annotations/*$image
+||maps.gstatic.com/tactile/runway/imagery-show-1x.png$image
+||maps.gstatic.com/tactile/runway/imagery-show-1x.png$image
+||maps.gstatic.com/tactile/runway/imagery-show-1x.png$image
+||maps.gstatic.com/tactile/runway/imagery-show-1x.png$image
+||maps.gstatic.com/tactile/runway/imagery-show-1x.png$image
+||maps.gstatic.com/tactile/runway/expander-sprite-1x.png$image
+||maps.gstatic.com/tactile/runway/imagery-show-1x.png$image
+||maps.gstatic.com/tactile/runway/expander-sprite-1x.png$image
+||maps.gstatic.com/tactile/runway/*-1x.png$image
+www.google.co.jp##.GFgdCf > .L6Bbsd
+www.google.co.jp##.GFgdCf
+www.google.co.jp##.jLAg5b.FQiAM > div
+www.google.co.jp##.jLAg5b.FQiAM
+www.google.co.jp##.yyeBBf.WzvKIe
+www.google.co.jp##text
+
