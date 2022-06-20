@@ -23,4 +23,5 @@ www.google.co.jp##.jLAg5b.FQiAM > div
 www.google.co.jp##.jLAg5b.FQiAM
 www.google.co.jp##.yyeBBf.WzvKIe
 www.google.co.jp##text
-
+www.google.co.jp###app-container > #content-container > #image-header > div
+www.google.co.jp##.HdXONd.app-bottom-content-anchor
